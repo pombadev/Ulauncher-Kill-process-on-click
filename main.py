@@ -1,11 +1,5 @@
-import json
 import logging
 import os
-from pickle import FALSE
-import re
-from time import sleep
-from unicodedata import name
-import nacl
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.client.EventListener import EventListener
 from ulauncher.api.shared.event import KeywordQueryEvent, ItemEnterEvent
